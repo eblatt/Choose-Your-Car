@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#name {
+
+}
+
+
+body {
+  background: url(https://i.pinimg.com/originals/47/10/a0/4710a0d195da1398cd868d485c283a31.gif);
+  background-repeat: repeat-x;
+  background-size: 550px 220px;
+}
+
+body.background-image{
+  width:100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
+#name{
+  font-family:Copperplate, sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+
+h1 {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+  font-family:Copperplate, sans-serif;
+  color:black;
+  background-color: white;
+  letter-spacing: 1px;
+  align-content: flex-end;
+  border-style:double;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.cars{
+  display:flex-row;
+  flex: wrap;
+  flex-direction: column;
+  align-items: flex-center;
+  max-width: 70%;
+  max-height: 90%;
+}
+
+.dropdown {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#speedtext{
+  display:block;
+}
+
+#full-list {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  max-width: 75%;
+  margin: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#speedtext {
+  font-weight: bold;
+}
+
+#price {
+  font-weight: bold;
+}
+
+#speed {
+  font-weight: bold;
+}
+
+#product {
+  display: flex;
+  max-width: 50%;
+}
+
+#space {
+  padding: 20px;
+}
+
+#search-bar {
+  display: block;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
